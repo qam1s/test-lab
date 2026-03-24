@@ -1,6 +1,8 @@
-def main():
-    print("Hello from test-lab!")
+from fastapi import FastAPI, Response
+
+app = FastAPI(title="App", version="1.0.0")
 
 
-if __name__ == "__main__":
-    main()
+@app.get("/health")
+def health():
+    return Response(status_code=200)
