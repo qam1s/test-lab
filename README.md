@@ -1,2 +1,3 @@
-# test-lab
-Sandbox for exploring various tools and types of testing
+# Test Lab
+
+### Environment where software meets quality
