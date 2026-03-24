@@ -1,0 +1,7 @@
+[project]
+name = "test-lab"
+version = "0.1.0"
+description = "Sandbox for exploring various tools and types of testing"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = []
