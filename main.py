@@ -4,5 +4,5 @@ app = FastAPI(title="App", version="1.0.0")
 
 
 @app.get("/health")
-def health():
+def health() -> Response:
     return Response(status_code=200)
